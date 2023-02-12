@@ -121863,7 +121863,7 @@ const input = document.getElementById("file-input");
 window.ondblclick = () => viewer.IFC.selector.pickIfcItem(true);
 window.onmousemove = () => viewer.IFC.selector.prePickIfcItem();
 viewer.clipper.active = true;
-viewer.IFC.setWasmPath('../wasm');
+viewer.IFC.setWasmPath('./wasm/');
 
 
 // window.onkeydown = (event) => {
